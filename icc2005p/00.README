@@ -1,0 +1,27 @@
+1. This directory contains 11 files:
+        00.README           Contains file descriptions and some important 
+                            notes 
+        ic_contest.pdf      The description of IC contest problem.
+        CS.v                The declaration of the CS module for Verilog
+        CS.vhd		    The declaration of the CS module for VHDL
+        testfixture.v       Testfixture file
+        synopsys_dc.setup   SYNOPSYS environment setup file.
+        CS.sdc		    The operating conditions and boundary conditions 
+                            file for the Synopsys setup.
+        in.dat              Input pattern.
+        out_golden.dat	    Expect result data.
+        report.000          This file is used to describe the materials
+                            that should be handed in by each team. The
+                            design, file name, tool names, specifications
+                            and others are described in this file.
+        report.tem	    The template of the report.000
+
+2. To test your circuit's performance you can change the clock
+   period by modifying the definition "CYCLE" in testfixture.v.
+   clock period = CYCLE. 
+
+3. For gate-level simulation you must generate the sdf file by using
+   SYNOPSYS Design Compiler and change the sdf file name by modifying
+   the definition "SDFFILE" in the testfixture.v. 
+
+
