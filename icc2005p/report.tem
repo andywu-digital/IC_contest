@@ -1,0 +1,19 @@
+隊號(Team number): gcb031
+
+使用之HDL名稱(Verilog or VHDL): Verilog
+------------------------RTL Simulation Level------------------------------
+RTL檔案名稱(RTL Netlist file name): CS.v
+
+RTL simulation, 所使用最小的 CYCLE  = (      20      ) ns
+
+--------------------------Synthesis Level---------------------------------
+Gate-Level檔案名稱(Gate-Level Netlist file name): CS_syn.vg
+Gate-Level simulation SDF檔案名稱(sdf file name): CS_syn.sdf
+Design Compiler Datebase檔案名稱(.db): CS_syn.db
+
+GATE LEVEL simulation, 所使用最小的 CYCLE  = (       25       ) ns
+
+--------------------------------------------------------------------------
+其他說明事項(Any other information you want to specify:(如設計特點 ...)
+
+使用超快速xxx架構........
